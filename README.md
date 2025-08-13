@@ -103,14 +103,15 @@ print("Hello, Markdown")
 ```markdown
 ![[Markdown 图标.png]]
 ```
-![光速入门 Markdown-Markdown 图标](光速入门%20Markdown-Markdown%20图标.png)
+![光速入门 Markdown-Markdown 图标](images/光速入门%20Markdown-Markdown%20图标.png)
 
 > 缩放后的图片：`![[本地图片名|宽度(像素)]]`  
 
 ```markdown
 ![[Markdown 图标.png|300]]
 ```
-	![光速入门 Markdown-Markdown 图标](光速入门%20Markdown-Markdown%20图标.png)
+![光速入门 Markdown-Markdown 图标](images/光速入门%20Markdown-Markdown%20图标.png)
+
 ---
 
 ## § 链接  
@@ -140,7 +141,7 @@ print("Hello, Markdown")
 > 2. 链接到当前文档中的块引用锚点时可以省略`文档名`
 > 3. 文档名中的**空格**都要替换成`%20`
 
-- 文档中添加的**块引用锚点**：![光速入门 Markdown-块引用锚点添加示例](光速入门%20Markdown-块引用锚点添加示例.png)
+- 文档中添加的**块引用锚点**：![光速入门 Markdown-块引用锚点添加示例](images/光速入门%20Markdown-块引用锚点添加示例.png)
 ```markdown
 [这是该文档的简介](#^introduction)
 ```
