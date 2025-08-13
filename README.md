@@ -105,7 +105,7 @@ print("Hello, Markdown")
 ```
 ![光速入门 Markdown-Markdown 图标](images/光速入门%20Markdown-Markdown%20图标.png)
 
-> 缩放后的图片：`![[本地图片名|宽度(像素)]]`  
+> 缩放后的图片：`![[本地图片名|宽度(像素)]]`（obsidian独用）
 
 ```markdown
 ![[Markdown 图标.png|300]]
