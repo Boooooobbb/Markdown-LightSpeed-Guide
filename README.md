@@ -1,6 +1,6 @@
 # 光速入门 Markdown
 
->✓ 本文档旨在**短平快**的介绍适用于 **Obsidian** 的 Markdown 常用语法
+>✓ 本文档旨在**短平快**的介绍适用于 **Obsidian** 的 Markdown 常用语法\
 >✓ 教学形式：代码框内为**语法**，下方即为相应的**渲染效果** ^introduction
 
 ---
