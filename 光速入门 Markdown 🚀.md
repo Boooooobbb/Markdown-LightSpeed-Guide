@@ -1,7 +1,7 @@
 # 光速入门 Markdown
 
-✓ 本文档旨在**短平快**的介绍 Markdown 常用语法
-✓ 教学形式：代码框内为**语法**，下方即为相应的**渲染效果** ^introduction
+>✓ 本文档旨在**短平快**地介绍适用于 **Obsidian** 的 Markdown 常用语法\
+>✓ 教学形式：代码框内为**语法**，下方即为相应的**渲染效果** ^introduction
 
 ---
 
@@ -76,9 +76,9 @@
 > 行内代码用 `` `代码` `` 包裹  
 
 ```markdown
-`This is inline code`
+行内代码长这样：`This is inline code`
 ```
-`This is inline code`  
+行内代码长这样：`This is inline code`
 
 > 多行代码用三个反引号包裹（可指定语言，自动添加高亮）  
 
@@ -105,13 +105,14 @@ print("Hello, Markdown")
 ```
 ![[光速入门 Markdown-Markdown 图标.png]]
 
-> 缩放后的图片：`![[本地图片名|宽度(像素)]]`  
+> 缩放后的图片：`![[本地图片名|宽度(像素)]]` （obsidian独有） 
 
 ```markdown
 ![[Markdown 图标.png|300]]
 ```
 
 ![[光速入门 Markdown-Markdown 图标.png|300]]
+
 ---
 
 ## § 链接  
@@ -121,19 +122,20 @@ print("Hello, Markdown")
 ```markdown
 [这是一个可以用于练习 Markdown 语法的链接](https://www.markdowntutorial.com/zh-cn)
 ```
+[这是一个可以用于练习 Markdown 语法的链接](https://www.markdowntutorial.com/zh-cn)
 
 > 链接到标题：`[描述](文档名#标题名)`  
 > 注：
 > 1. `#`后无空格
 > 2. 文档名和标题名中的**空格**都要替换成`%20`
-> 3. 链接到当前文档中的标题时可以省略`文档名`
+> 3. 链接到当前文档中的标题时可以省略`文档名`，跨文档链接时不可以省略
 
 ```markdown
 [这是链接部分](#§%20链接)
 ```
 [这是链接部分](#§%20链接)
 
-> 块引用链接（obsidian独用）：
+> 块引用链接（obsidian独有）：
 > 	1. 在需要进行引用的文字块加上` ^块引用锚点名`（注意`^`前要加上空格）
 > 	2. `[描述](文档名#^块引用锚点名)`（可跨文档）
 > 注：
